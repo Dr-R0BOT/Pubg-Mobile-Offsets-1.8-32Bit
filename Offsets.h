@@ -1,0 +1,86 @@
+#pragma once
+
+#include "Includes.h"
+
+namespace Offset
+{   
+	 DWORD Gworld = Mem.ReadMemory(viewWorldBase + 0x7E75C);
+	 DWORD Gnames = Mem.ReadMemory(viewWorldBase - 0x2B8D30) + 0xB0;
+	 DWORD ViewWorld = 0x77E06A0;
+	 DWORD PersistentLevel = 0x20;
+	 DWORD NetDriver = 0x24;
+	 DWORD ServerConnection = 0x60;
+	 DWORD PlayerController = 0x20;
+	 DWORD EntityList = 70;
+	 DWORD EntityCount = 74;
+	 DWORD CurrentWeapon = 0x182C;
+	 DWORD AcknowledgedPawn = 0x328;
+	 DWORD uMyObject = 0x808;
+	 DWORD RootComponent = 0x144;
+	 DWORD CurrentStates = 0xa90;
+	 DWORD TeamId = 0x670;
+	 DWORD PoseState = 0xeea0;
+	 DWORD IsBot = 0x6e8;
+	 DWORD Position = 0x150;
+	 DWORD PlayerName = 0x648;
+	 DWORD Health = 0x93c;
+	 DWORD HealthMax = 0x940;
+	 DWORD VehicleDamageComponent = 0x694;
+	 DWORD VehicleCommonComponent = 0x698;
+	 DWORD EnemyRoleID = 0x98;
+	 DWORD CarHP = 0x1b4;
+	 DWORD CarHPMax = 0x1b0;
+	 DWORD CarFuelMax = 0x1bc;
+	 DWORD CarFuel = 0x1bc;
+	 DWORD CharacterMovement = 0x31c;
+	 DWORD LastUpdateVelocity = 0x250;
+	 DWORD Velocity = 0xc8;
+	 DWORD RelativeLocation = 0x30;
+	 DWORD RelativeRotation = 0x3c;
+	 DWORD Position = 0x150;
+	 DWORD bDead = 0x978;
+	 DWORD Nation = 0x654;
+	 DWORD Mesh = 0x5D8;
+	 DWORD BodyAddv = 320;
+	 DWORD MinLOD = 0x318;
+	 DWORD PlayerCameraManager = 0x338;
+	 DWORD CameraCache = 0x340;
+	 DWORD POV = 0x10;
+	 DWORD Location = 0x1c;
+	 DWORD Rotation = 0x28;
+	 DWORD FOV = 0x24;
+	 DWORD ItemBase = 0x664;
+	 DWORD BoxItemCout = 0x668;
+	 DWORD ScopFov = 0x10fc;
+	 DWORD ReplicatedMovement = 0x80;
+	 DWORD CachedComponentSpaceTransforms = 0x754;
+	 DWORD CurrentReloadWeapon = 0x1c08;
+	 DWORD bDead = 0x974;
+	 DWORD LinearVelocity = 0x1c;
+	 DWORD MaxLinearVelocity = 0xdf4;
+	 DWORD ShootWeaponEntity = 0x1fc;
+	 DWORD MaxBulletNumInOneClip = 0x1a8;
+	 DWORD BulletInClip = 0x1ac;
+	 DWORD BulletFireSpeed = 0x1b0;
+	 DWORD ShootWeaponEntity = 0xb40;
+	 DWORD CurBulletNumInClip = 0xa30;
+	 DWORD CurMaxBulletNumInOneClip = 0xa44;
+	 DWORD PickUpDataList = 0x664;
+	 DWORD TypeSpecificID = 0x4;
+	 DWORD NearDeathBreath = 0x1024;
+	 DWORD bIsGunADS = 0xad5;
+	 DWORD bIsWeaponFiring = 0xe98;
+	 DWORD ParachuteComponent = 0xe88;
+	 DWORD CurrentFallSpeed = 0x290;
+	 DWORD ShootInterval = 0x3e8;
+	 DWORD ShotGunVerticalSpread = 0x868;
+	 DWORD ShotGunHorizontalSpread = 0x86c;
+	 DWORD GameDeviationFactor = 0x870;
+	 DWORD RecoilKickADS = 0x920;
+	 DWORD AnimationKick = 0x938;
+	 DWORD LaunchGravityScale = 0x318;
+	 DWORD SwitchWeaponSpeedScale = 0x1940;
+	 DWORD AccessoriesVRecoilFactor = 0x814;
+	 DWORD AccessoriesHRecoilFactor = 0x818;
+	 DWORD AccessoriesRecoveryFactor = 0x81c;
+}
